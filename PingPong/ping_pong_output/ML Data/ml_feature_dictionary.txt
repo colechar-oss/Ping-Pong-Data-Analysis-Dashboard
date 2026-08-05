@@ -1,0 +1,116 @@
+Ping Pong ML Feature Dictionary
+==================================
+
+All features below are computed using only pre-game information.
+
+
+Feature naming convention:
+  *_pre                = calculated before the game begins
+  *_diff              = Team 1 value minus Team 2 value
+  *_gap               = difference between related metrics
+  *_favorite          = calculated using the favorite/underdog ordering rather than Team 1/Team 2 ordering
+  *_volatility        = historical variation of a player's Elo
+  *_momentum          = recent change in rating
+
+Metadata / labels (not model inputs)
+------------------------------------
+game_id: Chronological game index.
+day: Day number from the log, if available.
+date: Game date, if available.
+p1, p2, p3, p4: Player IDs / corner assignments for the game.
+score1, score2: Final score for Team 1 and Team 2.
+team1_actual_win: Target label: 1 if Team 1 won, else 0.
+point_diff: Final point differential (score1 - score2).
+
+Elo / rating level
+------------------
+team1_elo_pre: Average pre-game Elo of Team 1.
+team2_elo_pre: Average pre-game Elo of Team 2.
+elo_diff_pre: Team 1 Elo minus Team 2 Elo.
+elo_abs_diff_pre: Absolute Elo difference between the teams.
+elo_expected_prob_pre: Pre-game Team 1 win probability from Elo.
+team1_max_elo_pre: Higher of the two Team 1 player Elos.
+team2_max_elo_pre: Higher of the two Team 2 player Elos.
+team1_min_elo_pre: Lower of the two Team 1 player Elos.
+team2_min_elo_pre: Lower of the two Team 2 player Elos.
+
+Elo stability / confidence
+--------------------------
+team1_balance_pre: Difference between Team 1 player Elos (max - min).
+team2_balance_pre: Difference between Team 2 player Elos (max - min).
+team1_elo_std_pre: Standard deviation of Team 1 player Elos.
+team2_elo_std_pre: Standard deviation of Team 2 player Elos.
+team1_peak_elo_pre: Average of Team 1 players' historical peak Elos.
+team2_peak_elo_pre: Average of Team 2 players' historical peak Elos.
+team1_peak_gap_pre: Average distance between Team 1's current Elo and historical peak Elo.
+team2_peak_gap_pre: Average distance between Team 2's current Elo and historical peak Elo.
+team1_elo_volatility_pre: Average historical Elo volatility (rolling Elo standard deviation) of Team 1 players.
+team2_elo_volatility_pre: Average historical Elo volatility (rolling Elo standard deviation) of Team 2 players.
+elo_confidence_gap_pre: Favorite-versus-underdog Elo confidence gap. Positive values indicate the favorite remains stronger even after accounting for rating volatility.
+elo_confidence_gap_side_pre: Team-1 minus Team-2 Elo confidence gap. Retained mainly for comparison with earlier models.
+
+TrueSkill / uncertainty
+-----------------------
+team1_ts_mu_pre: Average pre-game TrueSkill μ of Team 1.
+team2_ts_mu_pre: Average pre-game TrueSkill μ of Team 2.
+team1_ts_sigma_pre: Average pre-game TrueSkill σ of Team 1.
+team2_ts_sigma_pre: Average pre-game TrueSkill σ of Team 2.
+team1_ts_conservative_pre: Average conservative TrueSkill estimate (μ − 3σ) for Team 1.
+team2_ts_conservative_pre: Average conservative TrueSkill estimate (μ − 3σ) for Team 2.
+ts_mu_diff_pre: Difference in average TrueSkill μ between Team 1 and Team 2.
+ts_sigma_diff_pre: Difference in average TrueSkill σ between Team 1 and Team 2.
+ts_cons_diff_pre: Difference in conservative TrueSkill estimates between Team 1 and Team 2.
+team1_ts_balance_pre: Difference in TrueSkill μ between the two Team 1 players.
+team2_ts_balance_pre: Difference in TrueSkill μ between the two Team 2 players.
+team1_ts_momentum_pre: Average recent change in TrueSkill μ for Team 1.
+team2_ts_momentum_pre: Average recent change in TrueSkill μ for Team 2.
+ts_confidence_gap_pre: Side-dependent TrueSkill confidence gap (Team 1 vs Team 2).
+ts_confidence_gap_favorite_pre: Favorite-versus-underdog TrueSkill confidence gap. Positive values indicate the favorite remains stronger after accounting for uncertainty.
+
+Experience / recent form
+------------------------
+team1_games_played_pre: Average games played by Team 1 players.
+team2_games_played_pre: Average games played by Team 2 players.
+team1_win_rate_pre: Average career win rate of Team 1 players.
+team2_win_rate_pre: Average career win rate of Team 2 players.
+team1_recent_win_rate_pre: Average recent win rate of Team 1 players.
+team2_recent_win_rate_pre: Average recent win rate of Team 2 players.
+team1_avg_point_diff_pre: Average career point differential of Team 1 players.
+team2_avg_point_diff_pre: Average career point differential of Team 2 players.
+team1_recent_point_diff_pre: Average recent point differential of Team 1 players.
+team2_recent_point_diff_pre: Average recent point differential of Team 2 players.
+team1_recent_elo_trend_pre: Recent change in Elo form for Team 1.
+team2_recent_elo_trend_pre: Recent change in Elo form for Team 2.
+
+Chemistry / matchup familiarity
+-------------------------------
+team1_pair_games_pre: Number of prior games played by Team 1 as a pair.
+team2_pair_games_pre: Number of prior games played by Team 2 as a pair.
+team1_pair_win_rate_pre: Historical win rate of the Team 1 pair.
+team2_pair_win_rate_pre: Historical win rate of the Team 2 pair.
+team1_pair_point_diff_pre: Historical point differential of the Team 1 pair.
+team2_pair_point_diff_pre: Historical point differential of the Team 2 pair.
+h2h_games_pre: Prior head-to-head games between these two pairs.
+h2h_win_rate_pre: Team 1 pair win rate in this exact matchup.
+h2h_point_diff_pre: Historical point differential in this exact matchup.
+team1_opponent_experience_pre: Average prior games Team 1 players have played against the current opponents.
+team2_opponent_experience_pre: Average prior games Team 2 players have played against the current opponents.
+team1_opponent_win_rate_pre: Average prior win rate of Team 1 players vs the current opponents.
+team2_opponent_win_rate_pre: Average prior win rate of Team 2 players vs the current opponents.
+team1_specialization_pre: Average teammate-dependence of Team 1 players, measured as the standard deviation of their historical pair win rates across partners.
+team2_specialization_pre: Average teammate-dependence of Team 2 players, measured as the standard deviation of their historical pair win rates across partners.
+specialization_gap_pre: Team 1 specialization minus Team 2 specialization.
+
+Corner / position
+-----------------
+p1_corner_win_rate_pre: Player in corner 1 historical win rate.
+p2_corner_win_rate_pre: Player in corner 2 historical win rate.
+p3_corner_win_rate_pre: Player in corner 3 historical win rate.
+p4_corner_win_rate_pre: Player in corner 4 historical win rate.
+team1_corner_strength_pre: Average corner strength of Team 1.
+team2_corner_strength_pre: Average corner strength of Team 2.
+corner_strength_diff_pre: Team 1 corner strength minus Team 2 corner strength.
+
+Rating agreement / disagreement
+-------------------------------
+rating_disagreement_pre: Absolute difference between the standardized Elo matchup difference and standardized TrueSkill matchup difference. Large values indicate the two rating systems disagree about the teams.

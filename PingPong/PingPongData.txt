@@ -1,0 +1,150 @@
+1) TT, NS Vs. SY, CH: 21-13
+2) TT, SY Vs. FZ, NS: 14-21
+3) NS, CH Vs FZ, TT: 27-25
+4) CH, TD Vs. FZ, SY: 11-21
+5) CH, SY Vs. TD, NS: 21-19
+
+1) CH, SY Vs. TT, TD: 21-7
+2) RS, TD Vs. SY, TT: 13-21
+3) TT, RS Vs. TD, CH: 10-21
+4) TD, SY Vs. CH, TT: 16-21
+5) TD, TT Vs. RS, SY: 20-22
+6) CH, TD Vs. SY, RS: 18-21
+7) CH, RS Vs. TD, SY: 17-21
+
+1) CH, SY Vs. TT, TD: 21-15
+2) TD, CH Vs. TT, SY: 18-21
+3) RS, CH Vs. TT, SY: 15-21
+4) RS, SY Vs. TT, CH: 18-21
+5) RS, TT Vs. CH, SY: 18-21
+6) RS, TT Vs. CH, TD: 15-21
+
+1) FZ, TT Vs. CH, RS: 21-12
+2) RS, FZ Vs. TT, SY: 14-21
+3) RS, SY Vs. CH, TT: 17-21
+4) TT, FZ Vs. CH, SY: 21-14
+5) FZ, CH Vs. RS, TT: 21-14
+
+1) AC, SY Vs. CH, FZ: 17-21
+2) AC, CH Vs. FZ, SY: 10-21
+3) AC, CH Vs. FZ, TT: 16-21
+4) CH, SY Vs. AC, FZ: 20-22
+5) CH, FZ Vs. AC, SY: 19-21
+6) AC, FZ Vs. CH, SY: 19-21
+
+1) NS, SY Vs. TT, FZ: 21-15
+2) AC, SY Vs. FZ, NS: 13-21
+3) FZ, CH Vs. NS, SY: 21-15
+4) FZ, CH Vs. TT, SY: 21-9
+5) NS, FZ Vs. AC, TT: 21-15
+6) AC, FZ Vs. CH, NS: 21-19
+
+1) AC, FZ Vs. CH, NS: 15-21
+2) FZ, CH Vs. AC, NS: 21-14
+3) NS, CH Vs. FZ, TT: 21-18
+4) AC, CH Vs. NS, TT: 19-21
+5) CH, FZ Vs. AC, TT: 21-19
+6) TT, CH Vs. AC, NS: 20-22
+
+1) NS, CH Vs. AC, TT: 21-16
+2) AC, FZ Vs. SY, TT: 21-16
+3) CH, FZ Vs. TT, SY: 21-14
+4) FZ, CH Vs. SY, AC: 15-21
+5) FZ, SY Vs. CH, AC: 21-16
+
+1) NS, FZ Vs. CH, SY: 15-21
+2) SY, FZ Vs. AC, NS: 18-21
+3) AC, FZ Vs. NS, CH: 17-21
+4) NS, SY Vs. FZ, CH: 19-21
+
+1) NS, CH Vs. AC, TT: 21-15
+2) TT, NS Vs. CH, AC: 18-21
+3) FZ, AC Vs. CH, NS: 21-14
+
+1) NS, CH Vs. TT, SY: 19-21
+2) SY, NS Vs. CH, TT: 21-18
+3) NS, FZ Vs. CH, SY: 14-21
+4) FZ, SY Vs. NS, TT: 23-21
+5) SY, FZ Vs. CH, TT: 21-17
+6) FZ, CH Vs. NS, AC: 21-9
+7) CH, NS Vs. AC, SY: 21-18
+8) CH, SY Vs. FZ, NS: 22-24
+
+1) NS, CH Vs. SY, TD: 12-21
+2) SY, CH Vs. NS, TD: 22-20
+3) CH, NS Vs. AC, TD: 21-10
+4) AC, SY Vs. TD, NS: 21-12
+5) CH, TD Vs. SY, AC: 21-15
+6) TD, CH Vs. SY, NS: 21-19
+7) AC, SY Vs. NS, CH: 14-21
+8) TD, FZ Vs. NS, CH: 24-22
+9) FZ, TD Vs. NS, SY: 18-21
+
+1) SY, NS Vs. FZ, CH: 13-21
+2) FZ, NS Vs. CH, SY: 21-17
+3) SY, FZ Vs. NS, CH: 21-17
+4) CH, SY Vs. AC, FZ: 17-21
+5) AC, CH Vs. NS, FZ: 7-21
+6) NS, CH Vs. AC, SY: 17-21
+7) FZ, SY Vs. AC, NS: 21-16
+8) SY, NS Vs. CH, TD: 21-15
+9) TD, NS Vs. CH, SY: 21-18
+10) FZ, TD Vs. CH, NS: 20-22
+11) CH, FZ Vs. TD, SY: 21-14
+12) TD, FZ Vs. SY, CH: 14-21
+13) TD, TT Vs. CH, NS: 15-21
+14) NS, TD Vs. TT, CH: 10-21
+
+1) FZ, CH Vs. NS, SY: 21-12
+2) SY, FZ Vs. NS, CH: 21-12
+3) TD, FZ Vs. TT, NS: 21-13
+4) AC, TD Vs. TT, SY: 13-21
+5) AC, NS Vs. TT, CH: 16-21
+6) CH, SY Vs. FZ, NS: 22-20
+7) AC, SY Vs. TD, NS: 21-18
+8) NS, FZ Vs. AC, TD: 21-9
+9) FZ, CH Vs. TD, SY: 21-13
+10) FZ, CH Vs. NS, SY: 20-22
+
+
+1) SY, CH Vs. NS, SY: 21-18
+2) SY, FZ Vs. AC, CH: 21-18
+3) FZ, NS Vs. CH, TT: 21-11
+4) AC, NS Vs. TT, SY: 8-21
+5) NS, CH Vs. TT, SY: 21-17
+6) CH, AC Vs. NS, SY: 22-20
+
+1) FZ, AC Vs. CH, TT: 21-17
+2) FZ, SY Vs. CH, TT: 21-16
+3) FZ, CH Vs. AC, TT: 21-19
+4) FZ, TT Vs. AC, SY: 21-16
+5) TT, SY Vs. CH, FZ: 17-21
+6) AC, FZ Vs. CH, SY: 19-21
+7) AC, SY Vs. CH, TT: 16-21
+8) FZ, SY Vs. CH, TT: 21-15
+
+1) FZ, TD Vs. AC, SY: 18-21
+2) AC, FZ Vs. TT, SY: 22-20
+3) AC, SY Vs. TD, TT: 24-26
+4) TD, SY Vs. TT, FZ: 21-16
+5) TD, FZ Vs. AC, TT: 21-16
+
+1) AC, SY Vs. FZ, CH: 21-19
+2) AC, FZ Vs. CH, SY: 9-21
+3) FZ, SY Vs. AC, CH: 21-15
+4) AC, FZ Vs. CH, SY: 21-15
+5) AC, SY Vs. CH, FZ: 18-21
+6) FZ, SY Vs. AC, CH: 21-13
+
+
+1) SY, CH Vs. AC, FZ: 19-21
+2) CH, FZ Vs. SY, AC: 21-14
+3) CH, FZ Vs. TT, SY: 21-15
+4) TT, CH Vs. AC, SY: 23-21
+5) FZ, SY Vs. AC, TT: 21-18
+6) CH, SY Vs. FZ, TT: 21-18
+7) TT, FZ Vs. AC, CH: 17-21
+
+
+
+
