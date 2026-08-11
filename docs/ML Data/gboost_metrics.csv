@@ -1,2 +1,2 @@
-train_games,test_games,accuracy,brier_score,log_loss,roc_auc
-76,63,0.6507936507936508,0.25277925693711034,0.8443807855438868,0.6967391304347826
+model,split,train_games,test_games,accuracy,brier_score,log_loss,roc_auc,cv_accuracy_mean,cv_accuracy_std,cv_brier_mean,cv_brier_std,cv_log_loss_mean,cv_log_loss_std,cv_roc_auc_mean,cv_roc_auc_std,cv_rank_brier,cv_rank_accuracy,cv_rank_log_loss,recommended_rank
+Gradient Boosting,holdout,111,28,0.6785714285714286,0.19774341975985352,0.6128625924693946,0.7999999999999999,0.591304347826087,0.09760845356801585,0.2887879962519121,0.10228163680316837,1.267153070064301,0.7577862810881594,0.6758041958041958,0.17569189738816243,5.0,4.0,5.0,554.0
