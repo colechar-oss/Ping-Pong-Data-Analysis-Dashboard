@@ -1,43 +1,43 @@
 feature,importance
-elo_vs_ts_strength_gap,0.05590601475525837
-team1_avg_point_diff_pre,0.05489108881114259
-team1_avg_point_diff_pre_minus_team2_avg_point_diff_pre,0.053479179895702646
-elo_diff_pre,0.05147534208961261
-elo_expected_prob_pre,0.045316426330215015
-Random Forest_vs_Hist Gradient Boosting_diff,0.04442595974664523
-model_std_x_rating_disagreement,0.04239315362032102
-ts_mu_diff_pre,0.0423381103207624
-rating_disagreement_pre,0.038825725403338444
-Random Forest_vs_Extra Trees_abs_diff,0.037482410588252205
-specialization_gap_pre,0.03672864649361558
-ts_sigma_diff_pre,0.036713280633746515
-ts_cons_diff_pre,0.029454831696382435
-model_max,0.02700920476015832
-Logistic Regression prob,0.0241490028783334
-corner_strength_diff_pre,0.023414388740635592
-Random Forest_vs_Logistic Regression_abs_diff,0.02214569506355127
-team2_avg_point_diff_pre,0.020858220723123655
-model_mean_minus_elo,0.020515738957578345
-Hist Gradient Boosting prob,0.02031639257659858
-team1_pair_win_rate_pre_minus_team2_pair_win_rate_pre,0.019017200963566978
-Random Forest_vs_Extra Trees_diff,0.01783101397885061
-model_std,0.017711972776931546
-Extra Trees prob,0.016929152546966086
-model_mean,0.01645049723909753
-Random Forest_vs_Hist Gradient Boosting_abs_diff,0.015300119794309456
-model_range,0.015186335341877966
-Random Forest_vs_Logistic Regression_diff,0.01513600843809718
-team1_pair_win_rate_pre,0.015067505991584847
-Random Forest_vs_Gradient Boosting_diff,0.014966448061686174
-Random Forest_vs_Gradient Boosting_abs_diff,0.01488045962144722
-model_min,0.012543824032467996
-Gradient Boosting prob,0.012368329913850172
-Random Forest prob,0.01216323103428709
-team1_recent_win_rate_pre_minus_team2_recent_win_rate_pre,0.010889735212833191
-team2_pair_win_rate_pre,0.010692141241314963
-models_above_70,0.009008411970586787
-team2_recent_win_rate_pre,0.00882130263527778
-team1_recent_win_rate_pre,0.00722176867793024
-models_above_60,0.004259022115409442
-models_above_50,0.0030758846983689942
-h2h_win_rate_pre,0.002640819628283701
+team1_avg_point_diff_pre,0.06445119198848612
+elo_vs_ts_strength_gap,0.047464272997790956
+elo_expected_prob_pre,0.04466532533438242
+team1_avg_point_diff_pre_minus_team2_avg_point_diff_pre,0.041545540852156594
+Logistic Regression prob,0.03728464887799036
+ts_mu_diff_pre,0.037122453151069185
+model_std_x_rating_disagreement,0.034876534396026365
+rating_disagreement_pre,0.03254035545159999
+model_range,0.0321669219287471
+specialization_gap_pre,0.03155286360943817
+model_min,0.031076406654702505
+elo_diff_pre,0.03084515990185751
+ts_cons_diff_pre,0.030208128913422515
+ts_sigma_diff_pre,0.02975643582477701
+team1_pair_win_rate_pre,0.02740301129552198
+model_std,0.026364361501137253
+Random Forest_vs_Hist Gradient Boosting_abs_diff,0.02576880911590442
+model_max,0.024908201189046835
+Random Forest_vs_Logistic Regression_diff,0.0248317785442906
+Random Forest prob,0.024698424685469945
+model_mean,0.024674709187162063
+corner_strength_diff_pre,0.024036322629352427
+Random Forest_vs_Gradient Boosting_abs_diff,0.02275274981974382
+Extra Trees prob,0.020985108130168333
+Random Forest_vs_Hist Gradient Boosting_diff,0.020769399755509833
+Gradient Boosting prob,0.018258811104472455
+Random Forest_vs_Logistic Regression_abs_diff,0.017879151939556463
+team1_pair_win_rate_pre_minus_team2_pair_win_rate_pre,0.015279506437745763
+team2_avg_point_diff_pre,0.014813333822124476
+team1_recent_win_rate_pre_minus_team2_recent_win_rate_pre,0.014253788359233622
+Hist Gradient Boosting prob,0.013885204574411216
+models_above_50,0.012856654699208811
+Random Forest_vs_Extra Trees_abs_diff,0.012761054782203246
+Random Forest_vs_Extra Trees_diff,0.01243867530206792
+team1_recent_win_rate_pre,0.011957213919051527
+Random Forest_vs_Gradient Boosting_diff,0.011902987256045716
+model_mean_minus_elo,0.011471775755073844
+team2_pair_win_rate_pre,0.01100957455408479
+team2_recent_win_rate_pre,0.01027612032347958
+models_above_70,0.010063140778095272
+models_above_60,0.004235571245174128
+h2h_win_rate_pre,0.003908319412216944
