@@ -1,4 +1,4 @@
 component,weight,weight_pct
-Random Forest,0.84,84.0
-Context-Aware Meta-Model,0.0,0.0
-Meta-Model V3,0.16,16.0
+Random Forest,0.56,56.00000000000001
+Context-Aware Meta-Model,0.04,4.0
+Meta-Model V3,0.4,40.0
