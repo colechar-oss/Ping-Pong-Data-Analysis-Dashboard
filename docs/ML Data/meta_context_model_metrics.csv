@@ -1,2 +1,2 @@
 model,split,train_games,test_games,accuracy,brier_score,log_loss,roc_auc
-Context-Aware Meta-Model,holdout,121,31,0.7096774193548387,0.1692429365302011,0.4901666777776478,0.8529411764705883
+Context-Aware Meta-Model,holdout,125,32,0.71875,0.18026777865876686,0.5135286390043272,0.8862745098039215

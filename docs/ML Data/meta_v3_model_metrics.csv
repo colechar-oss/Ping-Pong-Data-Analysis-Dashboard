@@ -1,2 +1,2 @@
 model,split,train_games,test_games,accuracy,brier_score,log_loss,roc_auc
-Meta-Model V3 (Random Forest),holdout,121,31,0.7741935483870968,0.16638201358300359,0.4959630597110726,0.8319327731092436
+Meta-Model V3 (Random Forest),holdout,125,32,0.75,0.168834484891966,0.5006723261759897,0.8784313725490195
