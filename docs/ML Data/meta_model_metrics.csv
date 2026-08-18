@@ -1,2 +1,2 @@
 model,split,train_games,test_games,accuracy,brier_score,log_loss,roc_auc
-Probability-Only Meta-Model,holdout,125,32,0.53125,0.24269989325895575,0.6581007590883153,0.8980392156862744
+Probability-Only Meta-Model,holdout,136,34,0.47058823529411764,0.239481753174708,0.6603061765076401,0.8333333333333334
