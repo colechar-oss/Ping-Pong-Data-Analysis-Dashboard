@@ -1,2 +1,2 @@
 model,cv_accuracy_mean,cv_accuracy_std,cv_brier_mean,cv_brier_std,cv_log_loss_mean,cv_log_loss_std,cv_roc_auc_mean,cv_roc_auc_std
-Weighted Ensemble (fixed weights),0.7,,0.19688405139115414,,0.5763506038522344,,0.7549206349206349,
+Weighted Ensemble (fixed weights),0.7090909090909091,,0.2027496036324912,,0.5901772883021148,,0.7364122364122363,
