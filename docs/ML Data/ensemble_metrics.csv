@@ -1,2 +1,2 @@
 model,split,train_games,test_games,accuracy,brier_score,log_loss,roc_auc
-Weighted Ensemble (RF + Context Meta + V3),holdout,,42,0.8095238095238095,0.15186455967235962,0.4741018728502094,0.8909090909090909
+Weighted Ensemble (RF + Context Meta + V3),holdout,,44,0.7727272727272727,0.15460838316913098,0.4734351583130239,0.8612836438923396
